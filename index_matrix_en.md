@@ -26,7 +26,7 @@ Dimensions can be divided to qualitive and quantitative ones. The former is repr
 The life cycle contains four phases: definition, production, consumption and off-going. We need to do continuous indicator maintainance and quality assurance for the entire life cycle. And we also need to do corresponding data operations in order to increase the reuse of an indicator and to lower the cost of using the indicator. 
 
 
-![](im_01_en.png)
+![](img/im_01_en.png)
 
 
 
@@ -111,7 +111,7 @@ The T3 indicators are subdivision of T2s to locate the problems detected in T2 i
 
 Example: the classification of indicator of deal ratio
 
-![](im_02_en.png)
+![](img/im_02_en.png)
 
 
 
@@ -202,7 +202,7 @@ Indicators in this stage measure end users self-propatation and our product's wo
 
 We may combine OSM and AARRR according to actual business scenarios to systematically choose the corresponding core indicators for different stages.
 
-![](im_03_en.png)
+![](img/im_03_en.png)
 
 
 
@@ -222,7 +222,7 @@ Taking Didi as an example: what persons (passengers) in which fields (terminals 
 
 From the perspective of Persons, the questions we concern more are 1)what passengers takes taxi at which time, 2)how long they queue to get a response, 3)how long it takes for them to get on a car, 4)which time it is for them to take taxi in one period, 5)how much money it takes for them to take a taxi, and 6) whether or not they have complains or cancellations. As for indicators, we concerns more about # Ordering Users, # Completion Users, Per User Price, # Period Completion Orders, # Cancelled Orders, and # Rated Orders.
 
-![](im_04_en.png)
+![](img/im_04_en.png)
 
 
 
@@ -234,7 +234,7 @@ From the perspective of Persons, the questions we concern more are 1)what passen
 From the  perspective of items, we pay more attention on the number of dealed orders, the volume of trade, the amount of money that passengers payed. As for indicators, we investigate GMV, Deal Ratio, Cancellation Ratio. And we may detail the indicators along with dimensions of City and District, Level-1 Category and Level-2 Category. Target-based, herizonal or historical comparisons will be leveraged to judge the data's effects. 
 
 
-![](im_05_en.png)
+![](img/im_05_en.png)
 
 
 
@@ -245,14 +245,14 @@ From the  perspective of items, we pay more attention on the number of dealed or
 From the  perspective of fields, we are more concerned about are 1)users from which channels have a large number of hits and/or exposion, 2) which channels bring how many new users, 3) which channels have how many dealed orders, and 3) which channels have how much Per-User Price. Or 4) what the acquisition or promotion's effect of activity is like and 5) what the conversion ratio is. We need to take appropriate policies according to the scenario based data.
 
 
-![](im_06_en.png)
+![](img/im_06_en.png)
 
 
 
 By now we have refined the data indicators and analysis dimensions from perspective of Persons, Items and Fields. Let's break down and connect the above 3 types of indicators combining with indicator classification, as follows:
 
 
-![](im_07_en.png)
+![](img/im_07_en.png)
 
 
 
@@ -322,7 +322,7 @@ Product implementation of indicator matrix management tool; product implementati
 
 
 
-![](im_08_en.png)
+![](img/im_08_en.png)
 
 
 
@@ -409,7 +409,7 @@ These indicators are a calculation based on transactional or cumulative indicato
 We employ the methology of dimensional modeling to build our model. The fact tables of basic business details store dimensional attributes collection and measures/atomic indicators, and the fact tables of analytical business aggregation need to store them by the indicator types (unique or non-unique). That is, non-unique indicator aggregation fact tables store statistical dimensional collection and atomic or derived indicators, while the unique indicator aggregation fact tables only store the collection of statistical tags for analytical entity.
 
 In terms of physical implementation, the indicator matrix is built mainly guided by the hierachical architecture of data warehouse model. As the core management layer, DWM (data warehouse model) layer is used to store Didi's indicators data.
-![](im_09_en.png)
+![](img/im_09_en.png)
 
 
 
@@ -459,7 +459,7 @@ The decoration types contain type description, statistical algorithm description
 
 
 The modeling process is to guide engineers to abstract and classify indicators involved in the requirement scenario from the business perspective, unify the business terms, reduce communication cost and avoid duplicated construction of follow-up indicators.
-![](im_10_en.png)
+![](img/im_10_en.png)
 
 
 
@@ -476,7 +476,7 @@ The basic data entities are a physical collection of detail fact tables and basi
 
 The development flow is a technical guidance for engineers to develop, maintain and quality-control indicator matrix. The flow can also be a communication bridge between data warehouse developers and data product managers/data anlysts.
 
-![](im_11_en.png)
+![](img/im_11_en.png)
 
 
 
@@ -513,7 +513,7 @@ The graph benefits developers to design the indicator production models, boundar
 
 > 4.6.2 Model of Indicator Matrix Graph
 
-![](im_12_en.png)
+![](img/im_12_en.png)
 
 
 
@@ -523,7 +523,7 @@ The graph benefits developers to design the indicator production models, boundar
 
 
 
-![](im_13_en.png)
+![](img/im_13_en.png)
 
 
 
@@ -535,7 +535,7 @@ The graph benefits developers to design the indicator production models, boundar
 ### 5. Product Implementation of Indicator Matrix
 ----
 
-![](im_14_en.png)
+![](img/im_14_en.png)
 
 
 
@@ -554,17 +554,17 @@ In the above graph, Indicator Dictionary is a product strongly related to indica
 * Provide uniform indicator specification and meta-data information.
 
  
-![](im_15_en.png)
+![](img/im_15_en.png)
 
 
 Tool Design Process (Methodology -> Definition -> Production -> Consumption)
 
-![](im_16.png)
+![](img/im_16.png)
 
 
 Indication Definition
 
-![](im_17.png)
+![](img/im_17.png)
 
 
 Indicator Production
