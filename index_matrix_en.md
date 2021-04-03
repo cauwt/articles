@@ -323,11 +323,11 @@ In the above graph, Indicator Dictionary is a product strongly related to indica
 
 <center>Tool Design Process (Methodology -> Definition -> Production -> Consumption)</center>
 
-![](img/im_16.png)
+![Missing](img/im_16.png)
 
 <center>Indicator Definition</center>
 
-![](img/im_17.png)
+![Missing](img/im_17.png)
 
 <center>Indicator Production</center>
 
