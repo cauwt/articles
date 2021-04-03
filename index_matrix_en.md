@@ -17,18 +17,18 @@ They measure the effects which is resulted from some action conducted by users a
 * **Process-focusing Indicators**
 They are produced while the users are doing some actions. We can interfere the values of this sort of indicators and therefore change the final result. The process-focusing indicators are more used to explain why the specific user demands are satisfied or not.
 
-A matrix contains different dimensions which are "mental perspectives" of users to observe, consider or describe things. Dimensions are the core of an indicator matrix. Indicators themself have no meanings without dimensions.
+A matrix contains different dimensions which are "mental perspectives" of users to observe, consider or describe things. Dimensions are the core part of an indicator matrix. Indicators themselves have no meanings without dimensions.
 
 Dimensions can be divided to qualitative and quantitative ones. The former is represented by text, taking city, gender, job and etc for example. The latter is represented by values, such as salary, age and etc. We need to group the quantitative dimensions.
 
 #### 1.2 The Life Cycle of An Indicator Matrix
 
-The life cycle contains four phases: definition, production, consumption and off-going. We need to do continuous indicator maintenance and quality assurance for the entire life cycle. And we also need to do corresponding data operations in order to increase the reuse of an indicator and to lower the cost of using the indicator. 
+The life cycle contains 4 phases: definition, production, consumption and off-going. We need to do continuous indicator maintenance and quality assurance in the entire life cycle. And we also need to do corresponding data operations in order to increase the reuse of an indicator and to lower the cost of using the indicator. 
 
 ![](img/im_01_en.png)
 
 
-#### 1.3 Comprehensive Scenario of Indicator Matrix
+#### 1.3 Comprehensive Scenarios of An Indicator Matrix
 
 
 Basically the indicator matrix is used with specific business scenario. Different indicators and dimensions are usually combined to conduct comprehensive analysis. Analyst is able to observe the overall changes of business so that he can discover and locate problems quickly. One common scenario is decision analysis, where analysts take clear picture of business status through data and conduct strategic decision support. Another one is operations analysis, including operations of users, products and activities, where analysts need various indicator data to locate, analyse and solve problems.
