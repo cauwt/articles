@@ -11,13 +11,13 @@ An indicator is a quantitative measurement after breaking down the business unit
 
 Indicators can be divided to result-focusing and process-focusing ones.
 
-* **Result-focusing Indicator**
-It is used to measure the effects which is resulted from some action conducted by users and the value is retrieved delayed and can't be interfered. Result-focusing indicators are used to monitor data exceptions or the ability of satisfying user demands in specific scenarios.
+* **Result-focusing Indicators**
+They measure the effects which is resulted from some action conducted by users and the value is retrieved delayed and can't be interfered. Result-focusing indicators are used to monitor data exceptions or the ability of satisfying user demands in specific scenarios.
 
-* **Process-focusing Indicator**
-It is the indicator produced while the users are doing some action. We can interfere the value of this sort of indicators and therefore the final result. The process-focusing indicators are more used to explain why the specific user demands are satisfied or not.
+* **Process-focusing Indicators**
+They are produced while the users are doing some actions. We can interfere the values of this sort of indicators and therefore change the final result. The process-focusing indicators are more used to explain why the specific user demands are satisfied or not.
 
-A matrix contains different dimensions which are "mental perspectives" of users to observe, consider or describe things. Dimensions are the core of an indicator matrix. An indicator itself has no meanings without dimensions.
+A matrix contains different dimensions which are "mental perspectives" of users to observe, consider or describe things. Dimensions are the core of an indicator matrix. Indicators themself have no meanings without dimensions.
 
 Dimensions can be divided to qualitative and quantitative ones. The former is represented by text, taking city, gender, job and etc for example. The latter is represented by values, such as salary, age and etc. We need to group the quantitative dimensions.
 
