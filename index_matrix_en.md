@@ -1,5 +1,7 @@
 
 ## Building Didi Data Warehouse Indicator Matrix 
+Traslated from [滴滴数据仓库指标体系建设实践](https://mp.weixin.qq.com/s/-pLpLD_HMiasyyRxo5oTRQ)
+
 ----
 ### 1. What Is An Indicator Matrix
 #### 1.1 The Definition
@@ -33,7 +35,7 @@ Basically the indicator matrix is used with specific business scenario. Differen
 
 ----
 
-### 2. Why to Building Indicator Matrix
+### 2. Why to Build Indicator Matrix
 * **To measure the quality of business development**
 The indicator matrix can tell us the reality of business. It can help us to take a clear picture of business development. The business quality can be measured by indicators so that we can control the business development and solve business problems discovered through data indicators and therefore improve business development in control.
 * **To establish the cause-result relationship between indicators**
@@ -319,17 +321,12 @@ In the above graph, Indicator Dictionary is a product strongly related to indica
 
 * Provide uniform indicator specification and meta-data information.
  
-![](img/im_15_en.png)
+![](img/im_15_en.png 'Tool Design Process (Methodology -> Definition -> Production -> Consumption)')
 
-<center>Tool Design Process (Methodology -> Definition -> Production -> Consumption)</center>
 
-![Missing](img/im_16.png)
+![Missing](img/im_16.png 'Indicator Definition')
 
-<center>Indicator Definition</center>
-
-![Missing](img/im_17.png)
-
-<center>Indicator Production</center>
+![Missing](img/im_17.png 'Indicator Production')
 
 
 ----
