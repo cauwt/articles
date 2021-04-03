@@ -1,3 +1,4 @@
 # articles
 
-This is a blog that stores popular blogs translated by me.
+This is a place that stores my translations from popular blogs.
+
