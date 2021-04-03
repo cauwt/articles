@@ -1,6 +1,6 @@
 
 ## Building Didi Data Warehouse Indicator Matrix 
-Traslated from [滴滴数据仓库指标体系建设实践](https://mp.weixin.qq.com/s/-pLpLD_HMiasyyRxo5oTRQ)
+Translated from [滴滴数据仓库指标体系建设实践](https://mp.weixin.qq.com/s/-pLpLD_HMiasyyRxo5oTRQ)
 
 ----
 ### 1. What Is An Indicator Matrix
