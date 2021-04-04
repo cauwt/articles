@@ -1,5 +1,5 @@
 
-## Building Didi Data Warehouse Indicator Matrix 
+## Building An Indicator Matrix of Data Warehouse
 
 Translated from [滴滴数据仓库指标体系建设实践](https://mp.weixin.qq.com/s/-pLpLD_HMiasyyRxo5oTRQ)
 
