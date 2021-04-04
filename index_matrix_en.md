@@ -7,7 +7,7 @@ Translated from [滴滴数据仓库指标体系建设实践](https://mp.weixin.q
 ----
 ### 1. What Is An Indicator Matrix
 #### 1.1 The Definition
-An indicator matrix is a systematic collection of individual but related indicators. It is used to observe global through individuals and to solve individual problems by global. The indicator matrix is comprise of indicator and matrix.
+An indicator matrix is a systematic collection of individual but related indicators. It is used to investigate global picture through individuals and to solve individual problems by global view. The indicator matrix is comprised of indicator and matrix.
 
 An indicator is a quantitative measurement after breaking down the business units, which makes the business descriptive, measurable and breakable. An indicator is an integration of business and data, the fundamental of statistics and an important base for quantifying the  strategic effects.
 
@@ -134,7 +134,7 @@ We may combine **OSM** and **AARRR** in actual business scenarios to systematica
 
 Currently, a common abstract model for internet business is "Persons, Items and Fields". That means Users, Products and Scenarios as we talked usually. A more simple explanation is who uses which product in which scenario. There are different combination patterns for different business models.
  
-Taking Didi as an example: what persons (passengers) in which fields (terminals such as Native, Weixin and Alipay) uses which items (business lines such as Express/Special) on our platfom.
+Taking Didi as an example: what persons (passengers) in which fields (terminals such as Native, Weixin and Alipay) uses which items (business lines such as Express/Special) on our platform.
 
 ##### 3.3.1 Perspective of Persons
 
@@ -335,4 +335,4 @@ In the above graph, Indicator Dictionary is a product strongly related to indica
 ----
 ### 6. Summary
 
-This article gives an overall introduction to the methodology of Didi's indicator matrix construction and the development of the underlying tool products. Currently we have implemented the process connection between indicator dictionary and development tool. In the following plan, we will establish the connection with data consumption products by providing data services through DataAPI. The methodology and tools of indicator matrix construction has been popularized in Didi Group Inc. Departments of Online Appointment Car, Common Services and Car Services have started using them. By now there are 5000+ indicators in our indicator matrix, which has covered company's core business panels, 88 data domains, 385 business processes and 52 business scenarios. The methodology and tools will be continuously improved.
+This article gives an overall introduction to the methodology of Didi's indicator matrix construction and the development of the underlying tool products. Currently we have automated connection between indicator dictionary and development tool. In the following plan, we will automate the connection with data consumption products by providing data services through DataAPI. The methodology and tools of indicator matrix construction has been popularized in Didi Group Inc. Departments such as Online Appointment Car, Common Services and Car Services have started using them. By now there are 5000+ indicators in our indicator matrix, which have covered company's core business panels, 88 data domains, 385 business processes and 52 business scenarios. The methodology and tools will be continuously improved.
