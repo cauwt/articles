@@ -1,7 +1,9 @@
 
 ## Building Didi Data Warehouse Indicator Matrix 
+
 Translated from [滴滴数据仓库指标体系建设实践](https://mp.weixin.qq.com/s/-pLpLD_HMiasyyRxo5oTRQ)
-[toc]
+
+
 ----
 ### 1. What Is An Indicator Matrix
 #### 1.1 The Definition
@@ -221,13 +223,13 @@ Dimensional attributes are owned a dimension. For example, in dimension of *Geog
 1. **Indicator Categories**
 Indicators can fall into 3 categories: atomic, derived and calculated indicators.
     * **Atomic Indicators**
-Atomic indicators are based on a specific business event and non-split in business definition. Their names have clear business meaning, such as *# Calls*, *Deal Amount*. 
+Atomic indicators are based on a specific business event and non-split in business definition. Their names have clear business meaning, such as *#Calls*, *Deal Amount*. 
     * **Derived Indicators**   
 Derived indicators refer to one atomic plus multiple decorators (optional) plus period. It is a constraint on indicators in the statistic scope of business. Derived indicators can be categorized as the following two types:
         * **Transactional Indicators**
-Indicators that measure business processes, e.g., *# Calls* and *Order Payment Amount*. We need to maintain the atomic indicators and decorators, based on which they are created.
+Indicators that measure business processes, e.g., *#Calls* and *Order Payment Amount*. We need to maintain the atomic indicators and decorators, based on which they are created.
         * **Cumulative Indicators**
-Cumulative indicators are statistics of some states of entities (drivers, passengers), e.g., *# Total Registered Drivers* and *# Total Registered Passengers*. We also need to maintain the atomic indicators and decorators, based on which they are created. Generally the corresponding time period refers to "a certain current time since origin".
+Cumulative indicators are statistics of some states of entities (drivers, passengers), e.g., *#Total Registered Drivers* and *#Total Registered Passengers*. We also need to maintain the atomic indicators and decorators, based on which they are created. Generally the corresponding time period refers to "a certain current time since origin".
     * **Calculated Indicators**
 These indicators are a calculation based on transactional or cumulative indicators. Calculated indicators mainly include ones of ratio type, of proportion and of aggregative.
 
