@@ -77,9 +77,9 @@ Example: the classification of indicator of deal ratio
 ![](img/im_02_en.png)
 
 
-An **OSM** model is an important way to confirm core indicators in building indicator matrix. The model can be divided into business objective, strategy and measurement. It considers indicators horizontally in terms of their meanings.
+An **OSM** model is an important way to confirm core indicators in building indicator matrix. The model can be divided into business goal, strategy and measurement. It considers indicators horizontally in terms of their meanings.
 * **O**
-What is the objective of end users to use the product? what demand of the end users is met by our product? The objectives are determined from the Perspectives of end users and business. They should be executable, understandable, intervenible and positively beneficial.
+What is the purpose of end users to use the product? what demand of the end users is met by our product? The objectives are determined from the Perspectives of end users and business. They should be executable, understandable, intervenible and positively beneficial.
 * **S**
 What strategies should we take in order to achieve our objectives.
 * **M**
@@ -88,8 +88,8 @@ what changes of data indicators come because of the above strategies?
 
 ##### Take Didi's Online Appointment Car as an example. What are the indicators according to OSM model?
 
-* **O**: what are the demand and objective for end users using this product?
-  * The demand and objective of end users are to take a taxi conveniently and quickly, and to get to destination securely.
+* **O**: what are the demand and purpose for end users to use this product?
+  * The demand and purpose of end users are to take a taxi conveniently and quickly, and to get to destination securely.
  
 
 ##### Then, how do we make end users feel that their needs are met?
