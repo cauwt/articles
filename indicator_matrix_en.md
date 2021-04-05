@@ -14,7 +14,7 @@ An indicator is a quantitative measurement after breaking down the business unit
 Indicators can be divided to result-focusing and process-focusing ones.
 
 * **Result-focusing Indicators**
-They measure the effects which is resulted from some action conducted by users and the value is retrieved delayed and can't be interfered. Result-focusing indicators are used to monitor data exceptions or the ability of satisfying user demands in specific scenarios.
+They measure the effects which is resulted from some action conducted by users and the value is retrieved later than action and can't be interfered. Result-focusing indicators are used to monitor data exceptions or the ability of satisfying user demands in specific scenarios.
 
 * **Process-focusing Indicators**
 They are produced while the users are doing some actions. We can interfere the values of this sort of indicators and therefore change the final result. The process-focusing indicators are more used to explain why the specific user demands are satisfied or not.
@@ -33,7 +33,7 @@ The life cycle contains 4 phases: definition, production, consumption and off-go
 #### 1.3 Comprehensive Scenarios of An Indicator Matrix
 
 
-Basically the indicator matrix is used with specific business scenario. Different indicators and dimensions are usually combined to conduct comprehensive analysis. Analyst is able to observe the overall changes of business so that he can discover and locate problems quickly. One common scenario is decision analysis, where analysts take clear picture of business status through data and conduct strategic decision support. Another one is operations analysis, including operations of users, products and activities, where analysts need various indicator data to locate, analyse and solve problems.
+Basically the indicator matrix is used with specific business scenario. Different indicators and dimensions are usually combined to conduct comprehensive analysis. Business users are able to observe the overall changes of business so that he can discover and locate problems quickly. One common scenario is decision analysis, where business users take clear picture of business status through data and conduct strategic decision support. Another one is operations analysis, including operations of users, products and activities, where business users need various indicator data to locate, analyse and solve problems.
 
 ----
 
@@ -48,7 +48,7 @@ The target of an indicator matrix is to establish product assessment system, act
 An indicator matrix gives the fundamental data construction a clear direction so that we can get all resources together to avoid omission or lack the process-focusing and result-focusing indicator data.
 
 * **To guide the construction of content products**
-An indicator matrix is used integrated with business scenario. Analysts combine multiple indicators and dimensions to comprehensively understand a specific business. The overall business changes can be achieved by changes of the indicator values, which makes analysts to detect and locate problems. 
+An indicator matrix is used integrated with business scenario. Business users combine multiple indicators and dimensions to comprehensively understand a specific business. The overall business changes can be achieved by changes of the indicator values, which makes business users to detect and locate problems. 
 
 * **To standardize the specifications of indicator consumption**
 An enterprise can employ the indicator matrix to standardize the business and calculation spec of key indicators to unify the business target and therefore achieve the top-down target driven business vision. 
@@ -73,7 +73,7 @@ To achieve the goals of T1 indicators, a company breaks a goal down to business 
 The T3 indicators are subdivision of T2s to locate the problems detected in T2 indicators. Usually they are the most used indicators in business processes. Since the functional departments have different targets, the focused indicators differ. Generally speaking, the T3 indicators can be used to guide the business work of the front line operators and analysts. The values of the indicators focus more on process and can help the front line staff take corresponding actions.
  
 
-Example: the classification of indicator of deal ratio
+Example: the classification of indicator of deal rate
 ![](img/im_02_en.png)
 
 
@@ -100,29 +100,29 @@ what changes of data indicators come because of the above strategies?
   * For Security, several strategies are employed such as driver permit mechanism, driver compliance audit and driver profile system.
 
 * **M**: We need to define indicators that reflect the above indicators, which can be divided to result-focusing and process-focusing ones.
-  * Result-focusing indicators: *Channel Conversing Completion Ratio*, *Passenger Cancellation Ratio*, *Supply-Demand Rate*, and *Driver Service Score*
+  * Result-focusing indicators: *Channel Conversing Completion Rate*, *Passenger Cancellation Rate*, *Supply-Demand Rate*, and *Driver Service Score*
   * Process-focusing indicators: *#Channel Orders*, *#Channel Completed Orders*, *#Queuing Passengers*, *Passenger Queuing Duration*, *Driver Good Review Rate*, *#Driver Canceled Orders*.
  
 After choosing indicators, the most important step comes: choosing analytic dimensions. As mentioned before, dimensions are the core part of indicator matrix. Indicator itself has no meanings withour dimensions. Therefore, dimension selection is conducted combined with actually analyzing business scenarios from data analysis perspectives. Such dimensions include city, business district, channel, date, end user tag and etc.
 
 #### 3.2 Build indicator matrix with analysis model
 
-The book [Lean Analytics](https://www.amazon.com/Lean-Analytics-Better-Startup-Faster/dp/1449335675/ref=sr_1_1?crid=1DI6NQLRBAKQB&dchild=1&keywords=lean+analytics&qid=1617497355&s=books&sprefix=Lean+Analytics%2Caps%2C479&sr=1-1) provides two common methodologies for building indicator matrix. One is the well-known Pirate Metrics Model, e.g.  the **AARRR** Model we often hear about. The Pirate Metrics Model is a classic model for user analysis, which tells us that user growth is systematically throughout all the stages of end user's life cycle: Acquisition, Activation, Retention, Revenue and Referral.
+The book [Lean Analytics](https://www.amazon.com/Lean-Analytics-Better-Startup-Faster/dp/1449335675/ref=sr_1_1?crid=1DI6NQLRBAKQB&dchild=1&keywords=lean+analytics&qid=1617497355&s=books&sprefix=Lean+Analytics%2Caps%2C479&sr=1-1) provides two common methodologies for building indicator matrix. One is the well-known Pirate Metrics Model, e.g.  the **AARRR** Model we often hear about. The Pirate Metrics Model is a classic model for user analysis, which tells us that user growth is systematically throughout all the stages of end user's lifetime: Acquisition, Activation, Retention, Revenue and Referral.
  
 
 ##### The AARRR Model
 
 * **Acquisition**
-Acquire target user by a variety of promotion channels and through various ways. We assess all channels' promotion effects and then continuously improve investment strategies and reduce customer acquisition cost. The related key indicators include *#New Registered Users*, *Activation Ratio*, *Registration Ratio*, *Retention Ratio for New Customers*, *#Downloads*, *#Installations* and etc.
+Acquire target user by a variety of promotion channels and through various ways. We assess all channels' promotion effects and then continuously improve investment strategies and reduce customer acquisition cost. The related key indicators include *#New Registered Users*, *Activation Rate*, *Registration Rate*, *Retention Rate for New Customers*, *#Downloads*, *#Installations* and etc.
 
 * **Activation**
 The active users are those who really start experiencing the services provided by our product. We need to master the behavior data of these users and monitor the health of our product. This stage mainly measures the behavior of user entering the product, with key indicators such as *DAU*/*MAU*, *Daily Average Duration*, *Launching APP Duration*, *Launching APP Times*.
 * **Retention**
-Indicators in this stage measure the end users' stickiness and quality. Key indicators include *Retention Ratio*, *Churn Ratio* and etc.
+Indicators in this stage measure the end users' stickiness and quality. Key indicators include *Retention Rate*, *Churn Rate* and etc.
 * **Revenue**
-Indicators in this stage measure the business value of our products. *Life Cycle Value*, *Per-User Price* and *GMV* are examples of the key indicators.
+Indicators in this stage measure the business value of our products. *Lifetime Value*, *Per-User Price* and *GMV* are examples of the key indicators.
 * **Referral**
-Indicators in this stage measure end users self-propagation and our product's word-of-mouth. Examples of the key indicators are *Invitation ratio* and *Fission Ratio*.
+Indicators in this stage measure end users self-propagation and our product's word-of-mouth. Examples of the key indicators are *Invitation rate* and *Viral Coefficient*.
  
 
 We may combine **OSM** and **AARRR** in actual business scenarios to systematically choose the corresponding core indicators for different stages.
@@ -144,13 +144,13 @@ From the perspective of Persons, the questions we concern more are 1)what passen
 ##### 3.3.2 Perspective of Items
 
 
-From the  perspective of items, we pay more attention on the number of dealt orders, the volume of trade, the amount of money that passengers payed. As for indicators, we investigate *GMV*, *Deal Ratio*, *Cancellation Ratio*. And we may detail the indicators along with dimensions of *City* and *District*, and *Level-1 Category* and *Level-2 Category*. Target-based, horizontal or historical comparisons will be leveraged to judge the data effects. 
+From the  perspective of items, we pay more attention on the number of dealt orders, the volume of trade, the amount of money that passengers payed. As for indicators, we investigate *GMV*, *Deal Rate*, *Cancellation Rate*. And we may detail the indicators along with dimensions of *City* and *District*, and *Level-1 Category* and *Level-2 Category*. Target-based, horizontal or historical comparisons will be leveraged to judge the data effects. 
 
 ![](img/im_05_en.png)
 
 ##### 3.3.3 Perspective of Fields
 
-From the  perspective of fields, we are more concerned about are 1)users from which channels have a large number of hits and/or exposure, 2) which channels bring how many new users, 3) which channels have how many dealt orders, and 3) which channels have how much per-user price. Or 4) what the acquisition or promotion's effect of activity is like and 5) what the conversion ratio is. We need to take appropriate policies according to the scenario based data.
+From the  perspective of fields, we are more concerned about are 1)users from which channels have a large number of hits and/or exposure, 2) which channels bring how many new users, 3) which channels have how many dealt orders, and 3) which channels have how much per-user price. Or 4) what the acquisition or promotion's effect of activity is like and 5) what the conversion rate is. We need to take appropriate policies according to the scenario based data.
 
 ![](img/im_06_en.png)
 
@@ -231,7 +231,7 @@ Indicators that measure business processes, e.g., *#Calls* and *Order Payment Am
         * **Cumulative Indicators**
 Cumulative indicators are statistics of some states of entities (drivers, passengers), e.g., *#Total Registered Drivers* and *#Total Registered Passengers*. We also need to maintain the atomic indicators and decorators, based on which they are created. Generally the corresponding time period refers to "a certain current time since origin".
     * **Calculated Indicators**
-These indicators are a calculation based on transactional or cumulative indicators. Calculated indicators mainly include ones of ratio type, of proportion and of aggregative.
+These indicators are a calculation based on transactional or cumulative indicators. Calculated indicators mainly include ones of rate type, of proportion and of aggregative.
 
 
 ##### 4.3.3 Model Design
