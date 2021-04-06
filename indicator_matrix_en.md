@@ -7,7 +7,7 @@ Translated from [滴滴数据仓库指标体系建设实践](https://mp.weixin.q
 ----
 ### 1. What Is An Indicator Matrix
 #### 1.1 The Definition
-An indicator matrix is a systematic collection of individual but corelated indicators. It is used to investigate global picture through individuals and to solve individual problems by global view. The indicator matrix is comprised of indicator and matrix.
+An indicator matrix is a systematic collection of individual but correlated indicators. It is used to investigate global picture through individuals and to solve individual problems by global view. The indicator matrix is comprised of indicator and matrix.
 
 An indicator is a quantitative measurement after breaking down the business units, which makes the business descriptive, measurable and breakable. An indicator is an integration of business and data, the fundamental of statistics and an important base for quantifying the strategic effects.
 
@@ -43,7 +43,7 @@ The indicator matrix can tell us the truth of business. It can help us to take a
 * **To establish the causal relationship between indicators**
 The causal relationship between result-focusing indicator and process-focusing indicator can be established through the indicator matrix so that we can track back to process indicator through result indicator to locate the kernel causes of a problem.
 * **To guide business user's analysis**
-The target of an indicator matrix is to establish product assessment system, activiviy effect assessment system and intellectual operations analysis system.
+The target of an indicator matrix is to establish product assessment system, activity effect assessment system and intellectual operations analysis system.
 * **To direct the fundamental data construction**
 An indicator matrix gives the fundamental data construction a clear direction so that we can get all resources together to avoid omission or lack the process-focusing and result-focusing indicator data.
 
@@ -103,7 +103,7 @@ what changes of data indicators come because of the above strategies?
   * Result-focusing indicators: *Channel Conversing Completion Rate*, *Passenger Cancellation Rate*, *Supply-Demand Rate*, and *Driver Service Score*
   * Process-focusing indicators: *#Channel Orders*, *#Channel Completed Orders*, *#Queuing Passengers*, *Passenger Queuing Duration*, *Driver Good Review Rate*, *#Driver Canceled Orders*.
  
-After choosing indicators, the most important step comes: choosing analytic dimensions. As mentioned before, dimensions are the core part of indicator matrix. Indicator itself has no meanings withour dimensions. Therefore, dimension selection is conducted combined with actually analyzing business scenarios from data analysis perspectives. Such dimensions include city, business district, channel, date, end user tag and etc.
+After choosing indicators, the most important step comes: choosing analytic dimensions. As mentioned before, dimensions are the core part of indicator matrix. Indicator itself has no meanings without dimensions. Therefore, dimension selection is conducted combined with actually analyzing business scenarios from data analysis perspectives. Such dimensions include city, business district, channel, date, end user tag and etc.
 
 #### 3.2 Build indicator matrix with analysis model
 
@@ -316,7 +316,7 @@ The graph benefits developers to design the indicator production models, establi
 ![](img/im_14_en.png)
 
 
-The product suites related to indicator matrix should be implemented according to corresponding stages of life-cycle of the matrix. Through the product suites, we get an interconnected data flow and realize the management of indicator matrix on the aspects of unification, automation, normalization and flow processing. The essential goal of building indicator matrix is to serve business and bring data value to achieve data-driven business value, so the core dicipline is "light standard, heavy scenario, and changing from administration to service style".By integrate tools, products, techniques and organizations, we should be to increase the data usage frequency of business users and speed up business's innovation and iteration.
+The product suites related to indicator matrix should be implemented according to corresponding stages of life-cycle of the matrix. Through the product suites, we get an interconnected data flow and realize the management of indicator matrix on the aspects of unification, automation, normalization and flow processing. The essential goal of building indicator matrix is to serve business and bring data value to achieve data-driven business value, so the core discipline is "light standard, heavy scenario, and changing from administration to service style".By integrate tools, products, techniques and organizations, we should be to increase the data usage frequency of business users and speed up business's innovation and iteration.
 
 In the above graph, Indicator Dictionary is a product strongly related to indicator matrix methodology. It's aim and value:
 
