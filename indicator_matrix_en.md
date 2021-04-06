@@ -7,9 +7,9 @@ Translated from [滴滴数据仓库指标体系建设实践](https://mp.weixin.q
 ----
 ### 1. What Is An Indicator Matrix
 #### 1.1 The Definition
-An indicator matrix is a systematic collection of individual but related indicators. It is used to investigate global picture through individuals and to solve individual problems by global view. The indicator matrix is comprised of indicator and matrix.
+An indicator matrix is a systematic collection of individual but corelated indicators. It is used to investigate global picture through individuals and to solve individual problems by global view. The indicator matrix is comprised of indicator and matrix.
 
-An indicator is a quantitative measurement after breaking down the business units, which makes the business descriptive, measurable and breakable. An indicator is an integration of business and data, the fundamental of statistics and an important base for quantifying the  strategic effects.
+An indicator is a quantitative measurement after breaking down the business units, which makes the business descriptive, measurable and breakable. An indicator is an integration of business and data, the fundamental of statistics and an important base for quantifying the strategic effects.
 
 Indicators can be divided to result-focusing and process-focusing ones.
 
@@ -21,7 +21,7 @@ They are produced while the users are doing some actions. We can interfere the v
 
 A matrix contains different dimensions which are "mental perspectives" of users to observe, consider or describe things. Dimensions are the core part of an indicator matrix. Indicators themselves have no meanings without dimensions.
 
-Dimensions can be divided to qualitative and quantitative ones. The former is represented by text, taking city, gender, job and etc for example. The latter is represented by values, such as salary, age and etc. We need to group the quantitative dimensions.
+Dimensions can be grouped into qualitative and quantitative ones. The former is represented by text labels, taking city, gender, job and etc. for example. The latter is represented by values, such as salary, age and etc. We need to group the quantitative dimensions.
 
 #### 1.2 The Life Cycle of An Indicator Matrix
 
@@ -40,8 +40,8 @@ Basically the indicator matrix is used with specific business scenario. Differen
 ### 2. Why to Build Indicator Matrix
 * **To measure the quality of business development**
 The indicator matrix can tell us the truth of business. It can help us to take a clear picture of business development. The business quality can be measured by indicators so that we can control the business development and solve business problems discovered through data indicators and therefore improve business development in control.
-* **To establish the cause-result relationship between indicators**
-The relationship between result-focusing indicator and process-focusing indicator can be established through the indicator matrix so that we can trace process indicator through result indicator to locate the kernel causes of a problem.
+* **To establish the causal relationship between indicators**
+The causal relationship between result-focusing indicator and process-focusing indicator can be established through the indicator matrix so that we can track back to process indicator through result indicator to locate the kernel causes of a problem.
 * **To guide business user's analysis**
 The target of an indicator matrix is to establish product assessment system, activiviy effect assessment system and intellectual operations analysis system.
 * **To direct the fundamental data construction**
