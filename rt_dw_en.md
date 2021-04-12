@@ -1,11 +1,11 @@
-## Implementing a Real-time Data Warehouse
+## Building a Real-time Data Warehouse
 Authors: Pan Cheng, Zhu Feng
 
 Translated from [实时数仓在滴滴的实践和落地](https://mp.weixin.qq.com/s/PdxjNQd7SNx1POv6fVKVmA)
 Translator: Zyloh
 
 ----
-### 1. Why to build a real-time data warehouse
+### 1. Why to Build a Real-time Data Warehouse
 As the Internet economics has entered the second half, the timeliness of data becomes more and more important to company's lean operations. Market is like another battle field. It would be very helpful for enterprise to timely adjust its operation strategies if we can extract valuable information in realtime from the huge volume of data produced daily. 
 
 Besides, from the perspective of intelligent business, the resulting data represent feedback from end users, which makes the timeliness of getting results become extremely important. The quicker we get data feedback, the faster our company make decision and the better we improve our products. The real-time data warehouse plays an irreplaceable role here.
